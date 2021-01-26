@@ -1,0 +1,43 @@
+.combustion-background{
+  background-image: url("../Img/bmw.jpg");
+}
+.electric-background{
+  background-image: url("../Img/model3.png");
+}
+.title{
+ text-align: center;
+ margin: 50px;
+}
+
+.title > h1{
+  font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.text > p{
+  font-size: 20px;
+}
+.text > h2{
+  font-size: 30px;
+}
+
+.text{
+  background-color: white;
+  max-width: 1160px;
+  margin-bottom: 50px;
+}
+.text1{
+  text-align: center;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 200px;
+}
