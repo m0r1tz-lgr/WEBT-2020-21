@@ -1,0 +1,49 @@
+  *{
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", sans-serif;
+}
+header{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 25%, rgba(0,0,0,1) 47%);
+}
+
+body{
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+nav{
+  background-color: white;
+}
+nav ul{
+  float: right;
+  margin-top: 0.95vh;
+  margin-left: 0.25vh;
+  margin-right: 1vh;
+}
+nav ul li{
+  border-radius: 5px;
+
+  display: inline-block;
+  transition: box-shadow 0.5s;
+  padding: 0.4vh 2vh;
+}
+
+nav li:hover{
+  box-shadow: 4px 4px 3px grey;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.logo img{
+  width:10vh;
+  position: relative;
+  top:0%;
+  right: 0%;
+  margin-left:0.7vh;
+  margin-top:0.2vh;
+}

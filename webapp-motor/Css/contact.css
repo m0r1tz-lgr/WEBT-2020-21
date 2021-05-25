@@ -1,0 +1,42 @@
+body{
+  background-image: url("../Img/comparisonbackground.jpg");
+}
+.title{
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title > h1{
+  color: black;
+  font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  transition: box-shadow 0.5s;
+  padding: 0.4vh 2vh;
+}
+
+.btn:hover{
+  box-shadow: 0px 0px 0px 2px black inset;
+}
+.text{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-size: 20px;
+}
+.text > h2{
+  font-size: 30px;
+}
